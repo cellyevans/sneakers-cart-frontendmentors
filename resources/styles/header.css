@@ -1,0 +1,85 @@
+.snk-header {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 2rem;
+}
+
+.snk-header__toggle-box {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.snk-header__logo-box {
+    width: 17.5rem;
+}
+
+.snk-header__menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-overlay);
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+    transition: all .3s ease-in;
+}
+
+.snk-header__menu.active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+
+.snk-header__menu--menu-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: var(--color-white);
+    height: 100%;
+    padding-top: 10rem;
+    padding-left: 3rem;
+    transform: translateX(-100%);
+    transition: all .5s ease .3s;
+}
+
+.snk-header__menu--menu-container.active {
+    transform: translateX(0);
+}
+
+.snk-header__menu--close {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.snk-header__menu--link {
+    display: block;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: var(--color-very-dark-blue);
+    padding: 1rem 0;
+}
+
+.snk-header__cart-box {
+    margin-left: auto;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.snk-header__profile-box {
+    width: 4.5rem;
+    height: 4.5rem;
+    cursor: pointer;
+}

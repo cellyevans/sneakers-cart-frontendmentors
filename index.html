@@ -1,14 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./resources/images/favicon-32x32.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./resources/images/favicon-32x32.png"
+    />
     <title>Frontend Mentor | E-commerce product page</title>
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/styles/reset.css">
+    <link rel="stylesheet" href="./resources/styles/header.css">
+    <link rel="stylesheet" href="./resources/styles/product-slide.css">
+  </head>
+  <body>
+    <header class="snk-header">
+      <div class="snk-header__toggle-box">
+        <img src="./resources/images/icon-menu.svg" alt="hamburger menu" />
+      </div>
+      <a class="snk-header__logo-box" href="/">
+        <img src="./resources/images/logo.svg" alt="sneakers home">
+      </a>
+      <nav class="snk-header__menu">
+        <div class="snk-header__menu--menu-container">
+          <a href="#" class="snk-header__menu--link">collections</a>
+          <a href="#" class="snk-header__menu--link">men</a>
+          <a href="#" class="snk-header__menu--link">women</a>
+          <a href="#" class="snk-header__menu--link">about</a>
+          <a href="#" class="snk-header__menu--link">contact</a>
+          <div class="snk-header__menu--close">
+            <img src="./resources/images/icon-close.svg" alt="close menu">
+          </div>
+        </div>
+        
+      </nav>
+      <div class="snk-header__cart-box">
+        <img src="./resources/images/icon-cart.svg" alt="shopping cart">
+      </div>
+      <div class="snk-header__profile-box">
+        <img src="./resources/images/image-avatar.png" alt="my profile">
+      </div>
+    </header>
+    <main class="snk-main">
+        <section class="snk-main__product-slider">
+          <div class="slide slide1"></div>
+          <div class="slide slide2"></div>
+          <div class="slide slide3"></div>
+          <div class="slide slide4"></div>
+          <div class="previous">
+            <img src="./resources/images/icon-previous.svg" alt="previous slide">
+          </div>
+          <div class="next">
+            <img src="./resources/images/icon-next.svg" alt="next slide">
+          </div>
+        </section>
+        <section class="snk-main__product-details"></section>
+    </main>
+    <script src="./scripts/header.js" type="module"></script>
+    <script src="./scripts/slider.js" type="module"></script>
+  </body>
 </html>
