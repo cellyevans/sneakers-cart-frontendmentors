@@ -29,6 +29,7 @@ html {
 
 body {
     min-height: 100vh;
+    color: var(--color-dark-greyish-blue);
 }
 
 ul {
@@ -47,7 +48,15 @@ img {
     object-position: center center;
 }
 
+button,
+button:focus{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
 .snk-main {
     display: flex;
     flex-direction: column;
+    margin-top: 8rem;
 }

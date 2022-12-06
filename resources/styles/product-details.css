@@ -1,0 +1,123 @@
+.snk-main__product-details {
+    padding: 2rem;
+    position: relative;
+}
+
+.snk-main__product-details--heading {
+    padding: 4rem 0;
+}
+
+.heading-title {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 5rem;
+    position: relative;
+    color: var(--color-very-dark-blue);
+
+}
+
+.snk-main__product-details--heading::before {
+    position: absolute;
+    content: "Sneaker Company";
+    top: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.snk-main__product-details-desc {
+    margin-top: -1rem;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.snk-main__product-details--summary {
+    margin-top: 2rem;
+}
+
+.price-summary{
+    padding: 2rem 0 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.price-summary span,
+.add-quantity span {
+    display: block;
+}
+
+.price {
+    font-size: 4rem;
+    color: var(--color-very-dark-blue);
+    font-weight: 700;
+}
+
+.discount {
+    font-size: 3rem;
+    margin-left: 4rem;
+    padding: 1rem;
+    font-weight: 700;
+    background-color: var(--color-primary-gray);
+    color: var(--color-primary);
+}
+
+.prev-price {
+    font-size: 3rem;
+    margin-left: auto;
+    text-decoration: line-through;
+}
+
+.add-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: var(--color-light-greyish-blue);
+    color: var(--color-primary);
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.decrease {
+ cursor: pointer;
+}
+
+.value {
+    color: var(--color-very-dark-blue);
+}
+
+.increase {
+    cursor: pointer;
+}
+
+.add-to-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 5px;
+    width: 100%;
+    margin: 3rem 0 10rem;
+    /* box-shadow: -10px 10px 50px hsla(26, 100%, 55%, 10%); */
+}
+
+.icon,
+.desc {
+    display: block;
+    font-size: 2.5rem;
+}
+
+.icon {
+    margin-right: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.icon path {
+    fill: var(--color-white);
+}
