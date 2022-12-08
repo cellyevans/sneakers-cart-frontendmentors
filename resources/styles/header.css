@@ -76,11 +76,28 @@
 }
 
 .snk-header__cart-box {
+    position: relative;
     margin-left: auto;
     width: 3.5rem;
     height: 3.5rem;
     margin-right: 2rem;
     cursor: pointer;
+}
+
+.cart-notification {
+    position: absolute;
+    top: -1rem;
+    right: -.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .snk-header__profile-box {

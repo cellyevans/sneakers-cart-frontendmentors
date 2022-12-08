@@ -43,42 +43,11 @@
       </nav>
       <div class="snk-header__cart-box">
         <img src="./resources/images/icon-cart.svg" alt="shopping cart" />
+        <div class="cart-notification"></div>
       </div>
       <div class="snk-header__profile-box">
         <img src="./resources/images/image-avatar.png" alt="my profile" />
       </div>
-      <section class="shopping-cart">
-        <header class="shopping-cart__heading">
-          <h3 class="shopping-cart__heading--title">cart</h3>
-        </header>
-        <section class="cart-details">
-          <!-- <p class="empty-cart">Your cart is empty.</p> -->
-          <div class="cart-container">
-            <div class="cart-item">
-              <div class="img-thumbnail">
-                <img
-                  src="./resources/images/image-product-1-thumbnail.jpg"
-                  alt="sneakers thumbnail"
-                />
-              </div>
-              <div class="text-block">
-                <p class="details">Fall Limited Edition Sneakers</p>
-                <div class="price-summary">
-                  <span class="calc">$125 x 3</span>
-                  <span class="total">$375</span>
-                </div>
-              </div>
-              <div class="delete-icon">
-                <img
-                  src="./resources/images/icon-delete.svg"
-                  alt="delete item from cart"
-                />
-              </div>
-            </div>
-            <button class="checkout">Checkout</button>
-          </div>
-        </section>
-      </section>
     </header>
     <main class="snk-main">
       <section class="snk-main__product-slider">
@@ -138,8 +107,18 @@
         </div>
       </section>
     </main>
+    <section class="cartoverlay">
+      <section class="shopping-cart">
+        <header class="shopping-cart__heading">
+          <h3 class="shopping-cart__heading--title">cart</h3>
+        </header>
+        <section class="cart-details">
+        </section>
+      </section>
+    </section>
     <script src="./scripts/header.js" type="module"></script>
     <script src="./scripts/slider.js" type="module"></script>
+    <script src="./scripts/cart.js" type="module"></script>
     <script src="./scripts/product-details.js" type="module"></script>
   </body>
 </html>
