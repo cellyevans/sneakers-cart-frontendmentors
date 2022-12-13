@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![site image](https://sneakers-product-frontendmentor.netlify.app/resources/images/site-img.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [view solutions](https://www.frontendmentor.io/solutions/ecommerce-product-page-GFbapsRKTg)
+- Live Site URL: [view site](https://sneakers-product-frontendmentor.netlify.app/)
 
 ## My process
 
@@ -43,17 +43,10 @@ Users should be able to:
 - Mobile-first workflow
 - Vanilla Javascript
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [w3schools](https://www.w3schools.com/) - You will always need this
+- [Visit Mozilla Web docs](https://developer.mozilla.org/en-US/) - I cannot do without mdn
 
 ## Author
 
