@@ -41,6 +41,7 @@
     padding: 2rem 0 2rem;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .price-summary span,
@@ -103,7 +104,7 @@
     border-radius: 5px;
     width: 100%;
     margin: 3rem 0 10rem;
-    /* box-shadow: -10px 10px 50px hsla(26, 100%, 55%, 10%); */
+    box-shadow: -10px 10px 50px hsla(26, 100%, 55%, 10%);
 }
 
 .icon,
@@ -120,4 +121,80 @@
 
 .icon path {
     fill: var(--color-white);
+}
+
+@media screen and (min-width: 1200px) {
+    .snk-main__product-details {
+        flex: 1 1 40%;
+        padding: 10rem 5rem 5rem;
+    }
+
+    .snk-main__product-details--heading {
+        padding: 3rem 0;
+    }
+    
+    .heading-title {
+        font-size: 3rem;
+        line-height: 4rem;
+    
+    }
+    
+    .snk-main__product-details--heading::before {
+        content: "Sneaker Company";
+        top: 10rem;
+        font-size: 1.6rem;
+    }
+
+    .snk-main__product-details-desc {
+        width: 80%;
+    }
+    
+    .price {
+        font-size: 3rem;
+    }
+    
+    .discount {
+        padding: 1rem 1.5rem;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        margin-left: 3rem;
+    }
+    
+    .prev-price {
+        width: 100%;
+        font-size: 1.5rem;
+        margin-left: unset;
+    }
+
+    .quantity-container {
+        display: flex;
+        align-items: center;
+        width: 70%;
+    }
+    
+    .add-quantity {
+        flex: 0 1 15%;
+        padding: 1rem;
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+    
+    .add-to-cart {
+        flex: 2 1 20%;
+        padding: 1rem 0;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .icon,
+    .desc {
+        display: block;
+        font-size: 1.5rem;
+    }
+    
+    .icon {
+        margin-right: 1rem;
+        width: 3rem;
+        height: 3rem;
+    }
 }

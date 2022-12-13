@@ -55,3 +55,9 @@
 .next {
     right: 2rem;
 }
+
+@media screen and (min-width: 1200px) {
+    .snk-main__product-slider {
+       display: none;
+    } 
+}
